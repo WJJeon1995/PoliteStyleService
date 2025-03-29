@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlayLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#AA000000"
+    android:padding="8dp"
+    android:layout_gravity="center"
+    android:elevation="8dp">
+
+    <Button
+        android:id="@+id/btnPolite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="공손하게" />
+
+    <Button
+        android:id="@+id/btnFriendly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="친근하게" />
+
+    <Button
+        android:id="@+id/btnBusiness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비즈니스" />
+
+</LinearLayout>
