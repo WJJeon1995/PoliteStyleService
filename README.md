@@ -57,3 +57,30 @@ PoliteStyleService는 Android 접근성 서비스를 활용하여, 사용자가 
 
 ## 📂 프로젝트 구조
 
+```
+PoliteStyleService/
+├── app/
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/
+│   │       │   └── com/
+│   │       │       └── example/
+│   │       │           └── politestyleservice/
+│   │       │               ├── MainActivity.kt
+│   │       │               └── StyleAccessibilityService.kt
+│   │       ├── res/
+│   │       │   ├── layout/
+│   │       │   │   └── overlay_buttons.xml
+│   │       │   ├── values/
+│   │       │   │   ├── strings.xml
+│   │       │   │   └── themes.xml
+│   │       │   └── xml/
+│   │       │       └── accessibility_service_config.xml
+│   │       └── AndroidManifest.xml
+├── .idea/
+│   └── (IDE 설정 파일들)
+├── build.gradle
+├── proguard-rules.pro
+├── settings.gradle
+└── README.md
+```
